@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <name>project-settings</name>
+    <confirmParams>false</confirmParams>
+    <projectNamespace>scc</projectNamespace>
+    <selectedBeansPackage>com.gec.beans</selectedBeansPackage>
+    <selectedComponentsPackage>com.gec.components</selectedComponentsPackage>
+    <selectedRestPackage>com.gec.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <templateLanguage>freemarker</templateLanguage>
+    <useSamples>true</useSamples>
+</project>

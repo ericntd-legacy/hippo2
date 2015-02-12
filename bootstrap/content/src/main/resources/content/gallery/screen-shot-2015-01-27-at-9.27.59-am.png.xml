@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="screen-shot-2015-01-27-at-9.27.59-am.png">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippo:handle</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>mix:referenceable</sv:value>
+    <sv:value>hippo:translated</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>ea3a0e98-ef14-49c9-9f8d-2791bc8fa105</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:discriminator" sv:type="String" sv:multiple="true"/>
+</sv:node>
