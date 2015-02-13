@@ -16,6 +16,7 @@
 -->
 <#-- @ftlvariable name="item" type="com.gec.beans.EventsDocument" -->
 <#-- @ftlvariable name="pageable" type="org.onehippo.cms7.essentials.components.paging.Pageable" -->
+    <h1>List of events</h1>
 <#if pageable?? && pageable.items?has_content>
     <#list pageable.items as item>
         <@hst.link var="link" hippobean=item />

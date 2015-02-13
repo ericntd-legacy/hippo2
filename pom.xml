@@ -260,6 +260,31 @@
             <build>
                 <plugins>
                     <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-resources-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>copy-tomcat-resources</id>
+                                <phase>validate</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <outputDirectory>${project.build.directory}/contexts</outputDirectory>
+                                    <resources>
+                                        <resource>
+                                            <directory>conf</directory>
+                                            <includes>
+                                                <include>*-context.xml</include>
+                                            </includes>
+                                            <filtering>true</filtering>
+                                        </resource>
+                                    </resources>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
                         <groupId>org.codehaus.cargo</groupId>
                         <artifactId>cargo-maven2-plugin</artifactId>
                         <configuration>
@@ -272,6 +297,11 @@
                                         <file>${project.basedir}/conf/context.xml</file>
                                         <todir>conf/</todir>
                                         <tofile>context.xml</tofile>
+                                    </configfile>
+                                    <configfile>
+                                        <file>${project.build.directory}/contexts/site-context.xml</file>
+                                        <todir>conf/Catalina/localhost/</todir>
+                                        <tofile>site.xml</tofile>
                                     </configfile>
                                 </configfiles>
                             </configuration>
@@ -356,6 +386,17 @@
                     </plugin>
                 </plugins>
             </build>
+        </profile>
+        <profile>
+            <id>springloaded</id>
+            <activation>
+                <property>
+                    <name>springloaded</name>
+                </property>
+            </activation>
+            <properties>
+                <javaagent>-javaagent:/Users/eric/libs/springloaded.jar</javaagent>
+            </properties>
         </profile>
 
     </profiles>

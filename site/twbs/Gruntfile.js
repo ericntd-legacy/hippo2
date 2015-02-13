@@ -41,7 +41,8 @@ module.exports = function (grunt) {
         app: '../src/main/webapp/',
         // dist: 'dist',
         // devt: '/Library/WebServer/Documents/apache9901/wp-content/themes/campore/',
-        output: '/Users/eric/projects/hippo/scc/target/tomcat7x/webapps/site/css/style.css'
+        tmp: '../src/main/webapp/css/style.css',
+        output: '../target/site/css/style.css'
     };
 
     // Project configuration.
@@ -287,10 +288,10 @@ module.exports = function (grunt) {
                 ],
                 dest: 'docs/assets/css/docs.min.css'
             },
-            // combine all the temporary CSS file into style.css
+            // combine all the temporary CSS file into style.css in the webapp/ directory
             local: {
                 files: {
-                    '<%= myconfig.output %>': ['.tmp/styles/*.css']
+                    '<%= myconfig.tmp %>': ['.tmp/styles/*.css']
                 }
             }
         },
@@ -335,6 +336,11 @@ module.exports = function (grunt) {
             docs: {
                 src: 'dist/*/*',
                 dest: 'docs/'
+            },
+            // copy style.css from the webapp/ directory to the tomcat directory
+            css: {
+                src: '<%= myconfig.tmp %>',
+                dest: '<%= myconfig.output %>'
             }
         },
 
@@ -406,7 +412,7 @@ module.exports = function (grunt) {
             },
             sass: {
                 files: ['<%= myconfig.app %>/sass/{,*/}*.{scss,sass}'],
-                tasks: ['sass', 'autoprefixer', 'cssmin:local']
+                tasks: ['sass', 'autoprefixer', 'cssmin:local', 'copy:css']
                 // tasks: ['sass']
             },
             // less: {
