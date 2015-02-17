@@ -90,7 +90,7 @@
 
   <!-- Site logging -->
   <logger name="org.hippoecm.hst">
-    <level value="warn"/>
+    <level value="info"/>
   </logger>
 
   <!-- DiagnosticReportingValve only logs when diagnostics enabled in hst:hosts config in repo hence
@@ -100,7 +100,7 @@
   </logger>
 
   <logger name="freemarker">
-    <level value="warn"/>
+    <level value="info"/>
   </logger>
 
   <logger name="org.apache.cxf">
@@ -150,7 +150,7 @@
   </logger>
 
   <root>
-    <level value="warn"/>
+    <level value="info"/>
     <appender-ref ref="site"/>
     <appender-ref ref="cms"/>
     <appender-ref ref="console"/>

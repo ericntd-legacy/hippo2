@@ -146,17 +146,39 @@
                 <scope>test</scope>
             </dependency>
 
+            <!--<dependency>-->
+                <!--<groupId>org.slf4j</groupId>-->
+                <!--<artifactId>slf4j-api</artifactId>-->
+                <!--<version>1.7.6</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.slf4j</groupId>-->
+                <!--<artifactId>slf4j-simple</artifactId>-->
+                <!--<version>1.7.10</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>ch.qos.logback</groupId>-->
+                <!--<artifactId>logback-classic</artifactId>-->
+                <!--<version>1.1.2</version>-->
+            <!--</dependency>-->
+
+            <!--<dependency>-->
+                <!--<groupId>ch.qos.logback</groupId>-->
+                <!--<artifactId>logback-core</artifactId>-->
+                <!--<version>1.1.2</version>-->
+            <!--</dependency>-->
+
         </dependencies>
     </dependencyManagement>
 
     <build>
         <!--<resources>-->
-            <!--<resource>-->
-                <!--<directory>src/main/resources</directory>-->
-                <!--<excludes>-->
-                    <!--<exclude>twbs</exclude>-->
-                <!--</excludes>-->
-            <!--</resource>-->
+        <!--<resource>-->
+        <!--<directory>src/main/resources</directory>-->
+        <!--<excludes>-->
+        <!--<exclude>twbs</exclude>-->
+        <!--</excludes>-->
+        <!--</resource>-->
         <!--</resources>-->
         <defaultGoal>package</defaultGoal>
         <pluginManagement>
@@ -213,26 +235,26 @@
                 </configuration>
             </plugin>
             <!--<plugin>-->
-                <!--<groupId>org.apache.maven.plugins</groupId>-->
-                <!--<artifactId>maven-war-plugin</artifactId>-->
-                <!--<version>2.6</version>-->
-                <!--<configuration>-->
-                    <!--<webResources>-->
-                        <!--<resource>-->
-                            <!--&lt;!&ndash; this is relative to the pom.xml directory &ndash;&gt;-->
-                            <!--<directory>resource2</directory>-->
-                        <!--</resource>-->
-                    <!--</webResources>-->
-                    <!--&lt;!&ndash;<warSourceExcludes>twbs/**</warSourceExcludes>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<packagingExcludes>WEB-INF/twbs/</packagingExcludes>&ndash;&gt;-->
-                <!--</configuration>-->
-                <!--&lt;!&ndash;<executions>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<execution>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<goals>&ndash;&gt;-->
-                            <!--&lt;!&ndash;<goal>inplace</goal>&ndash;&gt;-->
-                        <!--&lt;!&ndash;</goals>&ndash;&gt;-->
-                    <!--&lt;!&ndash;</execution>&ndash;&gt;-->
-                <!--&lt;!&ndash;</executions>&ndash;&gt;-->
+            <!--<groupId>org.apache.maven.plugins</groupId>-->
+            <!--<artifactId>maven-war-plugin</artifactId>-->
+            <!--<version>2.6</version>-->
+            <!--<configuration>-->
+            <!--<webResources>-->
+            <!--<resource>-->
+            <!--&lt;!&ndash; this is relative to the pom.xml directory &ndash;&gt;-->
+            <!--<directory>resource2</directory>-->
+            <!--</resource>-->
+            <!--</webResources>-->
+            <!--&lt;!&ndash;<warSourceExcludes>twbs/**</warSourceExcludes>&ndash;&gt;-->
+            <!--&lt;!&ndash;<packagingExcludes>WEB-INF/twbs/</packagingExcludes>&ndash;&gt;-->
+            <!--</configuration>-->
+            <!--&lt;!&ndash;<executions>&ndash;&gt;-->
+            <!--&lt;!&ndash;<execution>&ndash;&gt;-->
+            <!--&lt;!&ndash;<goals>&ndash;&gt;-->
+            <!--&lt;!&ndash;<goal>inplace</goal>&ndash;&gt;-->
+            <!--&lt;!&ndash;</goals>&ndash;&gt;-->
+            <!--&lt;!&ndash;</execution>&ndash;&gt;-->
+            <!--&lt;!&ndash;</executions>&ndash;&gt;-->
             <!--</plugin>-->
         </plugins>
     </build>

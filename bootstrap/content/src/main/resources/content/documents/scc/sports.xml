@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="sports">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>56af6cdd-9ae7-407f-93c8-dafffe40d1cc</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>dd3f2d94-9040-4486-88d2-fd3c23b03603</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="cricket">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>af6b10b0-ea21-46cf-bac4-8c1a2fcd3127</sv:value>
+    </sv:property>
+    <sv:node sv:name="cricket">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>scc:sports</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1bd68b25-88d9-49b4-9295-3f136bb23feb</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>sports/cricket/cricket[3]</sv:value>
+        <sv:value>sports/cricket/cricket[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-02-17T12:53:38.085+08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-02-17T13:04:38.307+08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>5996feb9-c796-4306-b1cc-04c7aa8c8a2c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:convenor" sv:type="String">
+        <sv:value>David Jones</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:desc" sv:type="String">
+        <sv:value>CRICKET SECTION COMMITTEE 2014/2015&#13;
+Elected on 13 November 2014&#13;
+&#13;
+&#13;
+ &#13;
+Convenor&#13;
+&#13;
+David Jones&#13;
+&#13;
+Captain&#13;
+&#13;
+Dene Border&#13;
+&#13;
+Secretary&#13;
+&#13;
+Arjun Kakar&#13;
+&#13;
+Treasurer&#13;
+&#13;
+Will Tipping&#13;
+&#13;
+Tour, Fixtures &amp; Event Sec.&#13;
+&#13;
+Ben Gliddon&#13;
+&#13;
+Secretary of Social Cricket&#13;
+&#13;
+Hugh Darwell&#13;
+&#13;
+Secretary to Cricket Youth Development&#13;
+&#13;
+Riaz Hussein</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:governor" sv:type="String">
+        <sv:value>NA</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:name" sv:type="String">
+        <sv:value>Cricket</sv:value>
+      </sv:property>
+      <sv:node sv:name="scc:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>660da7e7-e792-4328-a3e9-ac21113f8ee8</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Cricket</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="cricket">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>scc:sports</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>ea48d96f-3338-4552-bfce-be93ac84c0e8</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>sports/cricket/cricket[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-02-17T12:53:38.085+08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-02-17T13:04:53.743+08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>5996feb9-c796-4306-b1cc-04c7aa8c8a2c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:convenor" sv:type="String">
+        <sv:value>David Jones</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:desc" sv:type="String">
+        <sv:value>CRICKET SECTION COMMITTEE 2014/2015&#13;
+Elected on 13 November 2014&#13;
+&#13;
+&#13;
+ &#13;
+Convenor&#13;
+&#13;
+David Jones&#13;
+&#13;
+Captain&#13;
+&#13;
+Dene Border&#13;
+&#13;
+Secretary&#13;
+&#13;
+Arjun Kakar&#13;
+&#13;
+Treasurer&#13;
+&#13;
+Will Tipping&#13;
+&#13;
+Tour, Fixtures &amp; Event Sec.&#13;
+&#13;
+Ben Gliddon&#13;
+&#13;
+Secretary of Social Cricket&#13;
+&#13;
+Hugh Darwell&#13;
+&#13;
+Secretary to Cricket Youth Development&#13;
+&#13;
+Riaz Hussein</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:governor" sv:type="String">
+        <sv:value>NA</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:name" sv:type="String">
+        <sv:value>Cricket</sv:value>
+      </sv:property>
+      <sv:node sv:name="scc:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>660da7e7-e792-4328-a3e9-ac21113f8ee8</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="cricket">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>scc:sports</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5164612d-a193-4bbc-a7a5-46c745ddd521</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>sports/cricket/cricket[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2015-02-17T12:53:38.085+08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2015-02-17T13:04:53.743+08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2015-02-17T13:05:02.006+08:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>5996feb9-c796-4306-b1cc-04c7aa8c8a2c</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:convenor" sv:type="String">
+        <sv:value>David Jones</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:desc" sv:type="String">
+        <sv:value>CRICKET SECTION COMMITTEE 2014/2015&#13;
+Elected on 13 November 2014&#13;
+&#13;
+&#13;
+ &#13;
+Convenor&#13;
+&#13;
+David Jones&#13;
+&#13;
+Captain&#13;
+&#13;
+Dene Border&#13;
+&#13;
+Secretary&#13;
+&#13;
+Arjun Kakar&#13;
+&#13;
+Treasurer&#13;
+&#13;
+Will Tipping&#13;
+&#13;
+Tour, Fixtures &amp; Event Sec.&#13;
+&#13;
+Ben Gliddon&#13;
+&#13;
+Secretary of Social Cricket&#13;
+&#13;
+Hugh Darwell&#13;
+&#13;
+Secretary to Cricket Youth Development&#13;
+&#13;
+Riaz Hussein</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:governor" sv:type="String">
+        <sv:value>NA</sv:value>
+      </sv:property>
+      <sv:property sv:name="scc:name" sv:type="String">
+        <sv:value>Cricket</sv:value>
+      </sv:property>
+      <sv:node sv:name="scc:images">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>660da7e7-e792-4328-a3e9-ac21113f8ee8</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

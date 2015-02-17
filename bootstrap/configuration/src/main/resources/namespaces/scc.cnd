@@ -10,3 +10,9 @@
 [scc:eventsdocument] > hippostd:relaxed, hippotranslation:translated, scc:basedocument
   orderable
 
+[scc:eventscc] > hippostd:relaxed, hippotranslation:translated, scc:eventsdocument
+  orderable
+
+[scc:sports] > hippostd:relaxed, hippotranslation:translated, scc:basedocument
+  orderable
+
