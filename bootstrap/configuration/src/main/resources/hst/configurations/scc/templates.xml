@@ -58,4 +58,12 @@
       <sv:value>freemarker/scc/sportslist.ftl</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="sportspage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>freemarker/scc/sportspage-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

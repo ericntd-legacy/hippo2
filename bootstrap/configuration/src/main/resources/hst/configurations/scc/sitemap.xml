@@ -80,7 +80,7 @@
         <sv:value>hst:pages/sportspage</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>${parent}/{1}</sv:value>
+        <sv:value>${parent}/${1}</sv:value>
       </sv:property>
     </sv:node>
     <sv:node sv:name="_any_">
@@ -91,7 +91,7 @@
         <sv:value>hst:pages/sportspage</sv:value>
       </sv:property>
       <sv:property sv:name="hst:relativecontentpath" sv:type="String">
-        <sv:value>${parent}/{1}</sv:value>
+        <sv:value>${parent}/${1}</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

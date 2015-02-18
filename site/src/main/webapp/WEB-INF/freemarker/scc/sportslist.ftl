@@ -1,9 +1,9 @@
 <#include "/WEB-INF/freemarker/include/imports.ftl">
-<p>Testing</p>
+<h2>Sports List</h2>
 <#if pageable??>
 <div class="yui-main">
     <div id="content" class="yui-b left-and-right">
-        <h2>Sports List</h2>
+
         <div id="products">
             <#list pageable.items as item>
                 <@hst.link var="link" hippobean=item/>
