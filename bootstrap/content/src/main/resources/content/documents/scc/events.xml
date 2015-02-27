@@ -185,86 +185,6 @@
             <sv:value>Breakfast</sv:value>
           </sv:property>
         </sv:node>
-        <sv:node sv:name="breakfast">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>scc:eventsdocument</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
-            <sv:value>mix:referenceable</sv:value>
-          </sv:property>
-          <sv:property sv:name="jcr:uuid" sv:type="String">
-            <sv:value>c690d0e1-47c9-4ea5-9dd5-13f34539359d</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
-          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-            <sv:value>events/2015/02/breakfast/breakfast</sv:value>
-            <sv:value>events/2015/02/breakfast</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:holder" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:state" sv:type="String">
-            <sv:value>draft</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-            <sv:value>live</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
-            <sv:value>2013-11-12T11:00:00.000+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2015-02-17T10:36:13.122+08:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
-            <sv:value>admin</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:id" sv:type="String">
-            <sv:value>fc594d65-9ef8-4397-bc9c-3a84b73f7e0c</sv:value>
-          </sv:property>
-          <sv:property sv:name="hippotranslation:locale" sv:type="String">
-            <sv:value>en</sv:value>
-          </sv:property>
-          <sv:property sv:name="scc:date" sv:type="Date">
-            <sv:value>2013-11-12T08:00:00.000+01:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="scc:documenttype" sv:type="String">
-            <sv:value>event</sv:value>
-          </sv:property>
-          <sv:property sv:name="scc:enddate" sv:type="Date">
-            <sv:value>2016-02-12T15:47:00.000+08:00</sv:value>
-          </sv:property>
-          <sv:property sv:name="scc:introduction" sv:type="String">
-            <sv:value>Start the day with a nice breakfast.</sv:value>
-          </sv:property>
-          <sv:property sv:name="scc:location" sv:type="String">
-            <sv:value>One Marina Boulevard</sv:value>
-          </sv:property>
-          <sv:property sv:name="scc:title" sv:type="String">
-            <sv:value>Breakfast</sv:value>
-          </sv:property>
-          <sv:node sv:name="scc:content">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippostd:html</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippostd:content" sv:type="String">
-              <sv:value>&lt;p&gt;Breakfast is served starting from 8:00 until 9:30.&lt;/p&gt;</sv:value>
-            </sv:property>
-          </sv:node>
-          <sv:node sv:name="scc:image">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hippogallerypicker:imagelink</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>c8f03498-56eb-46c9-83b2-cf014f2e03d7</sv:value>
-            </sv:property>
-            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
-            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
-          </sv:node>
-        </sv:node>
       </sv:node>
       <sv:node sv:name="introduction-speech">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -604,6 +524,7 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>6aeb212d-f3a3-4043-9aa9-853d4e5064a4</sv:value>

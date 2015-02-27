@@ -7,11 +7,12 @@
         <div>
             <@hst.cmseditlink hippobean=document/>
             <h2>${document.title}</h2>
+            <p>${document.gallery}</p>
             <div id="product" class="product-item">
-                <#if document.images??>
+                <#if document.gallery.images??>
                     <div class="clear">
                         <ul id="gallery">
-                            <#list document.images as item>
+                            <#list document.gallery.images as item>
                                 <@hst.link var="img" hippobean=item/>
                                 <li>
                                     <img src="${img}" alt="${item.fileName}" />

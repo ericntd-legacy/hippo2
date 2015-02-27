@@ -13,6 +13,12 @@
 [scc:eventscc] > hippostd:relaxed, hippotranslation:translated, scc:eventsdocument
   orderable
 
+[scc:gallery] > hippo:compound, hippostd:relaxed
+  orderable
+
+[scc:photogallery] > hippostd:relaxed, hippotranslation:translated, scc:basedocument
+  orderable
+
 [scc:sports] > hippostd:relaxed, hippotranslation:translated, scc:basedocument
   orderable
 
