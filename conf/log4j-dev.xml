@@ -84,13 +84,13 @@
     <appender-ref ref="audit"/>
   </logger>
   <logger additivity="false" name="org.onehippo.audit">
-    <level value="info"/>
+    <level value="warn"/>
     <appender-ref ref="audit"/>
   </logger>
 
   <!-- Site logging -->
   <logger name="org.hippoecm.hst">
-    <level value="info"/>
+    <level value="warn"/>
   </logger>
 
   <!-- DiagnosticReportingValve only logs when diagnostics enabled in hst:hosts config in repo hence
@@ -100,7 +100,7 @@
   </logger>
 
   <logger name="freemarker">
-    <level value="info"/>
+    <level value="warn"/>
   </logger>
 
   <logger name="org.apache.cxf">

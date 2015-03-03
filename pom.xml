@@ -62,6 +62,7 @@
     <properties>
 
         <!--***START temporary override of versions*** -->
+        <hippo.cms.version>2.26.13</hippo.cms.version>
         <!-- ***END temporary override of versions*** -->
 
         <essentials.version>1.02.06</essentials.version>

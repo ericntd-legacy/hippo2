@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.onehippo.cms7:hippo-cms-richtext-repository:2.26.13">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/onehippo/cms7/hippo-cms-richtext-repository/2.26.13/hippo-cms-richtext-repository-2.26.13.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/onehippo/cms7/hippo-cms-richtext-repository/2.26.13/hippo-cms-richtext-repository-2.26.13-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/onehippo/cms7/hippo-cms-richtext-repository/2.26.13/hippo-cms-richtext-repository-2.26.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

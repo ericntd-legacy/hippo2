@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:h="http://www.onehippo.org/jcr/xmlimport" sv:name="gallery" h:merge="combine">
   <sv:node sv:name="image-gallery" h:merge="combine">
     <sv:node sv:name="frontend:renderer" h:merge="combine">
-      <sv:property sv:name="fileupload.useMultipleAttr" sv:type="Boolean">
+      <sv:property sv:name="fileupload.jsMultiSelectionsEnabled" sv:type="Boolean">
+        <sv:value>true</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="asset-gallery" h:merge="combine">
+    <sv:node sv:name="frontend:renderer" h:merge="combine">
+      <sv:property sv:name="fileupload.jsMultiSelectionsEnabled" sv:type="Boolean">
         <sv:value>true</sv:value>
       </sv:property>
     </sv:node>

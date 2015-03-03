@@ -442,11 +442,14 @@
         <sv:value>events/company-game/company-game[3]</sv:value>
         <sv:value>events/company-game/company-game[2]</sv:value>
       </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>draft</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
+        <sv:value>changed</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -455,7 +458,7 @@
         <sv:value>2015-02-12T16:04:55.846+08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-02-12T16:04:56.793+08:00</sv:value>
+        <sv:value>2015-03-03T10:51:33.251+08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -505,6 +508,14 @@
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+      <sv:node sv:name="scc:gallery">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
       </sv:node>
     </sv:node>
     <sv:node sv:name="hippo:translation">
@@ -539,7 +550,7 @@
         <sv:value>unpublished</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
+        <sv:value>changed</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -548,7 +559,7 @@
         <sv:value>2015-02-12T16:04:55.846+08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2015-02-12T16:06:52.941+08:00</sv:value>
+        <sv:value>2015-03-03T10:51:25.837+08:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -599,6 +610,14 @@
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
       </sv:node>
+      <sv:node sv:name="scc:gallery">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:mirror</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="company-game">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -620,7 +639,7 @@
         <sv:value>published</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:stateSummary" sv:type="String">
-        <sv:value>live</sv:value>
+        <sv:value>changed</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
         <sv:value>admin</sv:value>
