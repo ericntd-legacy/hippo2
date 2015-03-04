@@ -9,7 +9,7 @@ import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 
 @HippoEssentialsGenerated(internalName = "scc:gallery")
 @Node(jcrType = "scc:gallery")
-public class Gallery extends HippoDocument {
+public class Gallery extends BaseDocument {
 	@HippoEssentialsGenerated(internalName = "scc:desc")
 	public String getDesc() {
 		return getProperty("scc:desc");
@@ -28,5 +28,15 @@ public class Gallery extends HippoDocument {
 	@HippoEssentialsGenerated(internalName = "scc:images")
 	public List<HippoGalleryImageSet> getImages() {
 		return getLinkedBeans("scc:images", HippoGalleryImageSet.class);
+	}
+
+	@HippoEssentialsGenerated(internalName = "scc:imagefolder")
+	public HippoBean getImagefolder() {
+		return getLinkedBean("scc:imagefolder", HippoBean.class);
+	}
+
+	@HippoEssentialsGenerated(internalName = "scc:subject")
+	public HippoBean getSubject() {
+		return getLinkedBean("scc:subject", HippoBean.class);
 	}
 }

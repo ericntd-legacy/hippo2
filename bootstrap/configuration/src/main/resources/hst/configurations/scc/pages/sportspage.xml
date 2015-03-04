@@ -15,5 +15,16 @@
     <sv:property sv:name="hst:template" sv:type="String">
       <sv:value>sportspage-main</sv:value>
     </sv:property>
+    <sv:node sv:name="gallery">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.gec.components.GalleryComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>gallery</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
 </sv:node>

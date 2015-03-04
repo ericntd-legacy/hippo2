@@ -80,7 +80,7 @@
                 <#--<li><a href="#">Contact</a></li>-->
                 <#--<li><a href="#">Career</a></li>-->
                 <#--<li class="dropdown">-->
-                    <#--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery <b class="caret"></b></a>-->
+                    <#--<a href="#" class="dropdown-toggle" data-toggle="dropdown">GalleryComponent <b class="caret"></b></a>-->
                     <#--<ul class="dropdown-menu navmenu-nav">-->
                         <#--<li><a href="#">Sports Events</a></li>-->
                         <#--<li class="divider"></li>-->

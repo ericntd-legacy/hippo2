@@ -48,6 +48,10 @@ public class Sports extends BaseDocument {
 		return getLinkedBean("scc:gallery", HippoBean.class);
 	}
 
+	/**
+	 * Not recommended way of getting all the images but works
+	 * @return
+	 */
 	public List<HippoGalleryImageSet> getImages() {
 		log.info("getImages");
 		List<HippoGalleryImageSet> images = new ArrayList<HippoGalleryImageSet>();
