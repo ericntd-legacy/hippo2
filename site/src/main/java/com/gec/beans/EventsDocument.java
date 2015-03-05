@@ -6,6 +6,7 @@ import org.hippoecm.hst.content.beans.standard.HippoDocument;
 import org.hippoecm.hst.content.beans.standard.HippoGalleryImageSet;
 import org.hippoecm.hst.content.beans.standard.HippoHtml;
 import org.onehippo.cms7.essentials.dashboard.annotations.HippoEssentialsGenerated;
+import org.hippoecm.hst.content.beans.standard.HippoBean;
 
 @HippoEssentialsGenerated(internalName = "scc:eventsdocument")
 @Node(jcrType = "scc:eventsdocument")
@@ -88,5 +89,15 @@ public class EventsDocument extends HippoDocument {
 	@HippoEssentialsGenerated(internalName = "hippostd:tags")
 	public String[] getTags() {
 		return getProperty("hippostd:tags");
+	}
+
+	@HippoEssentialsGenerated(internalName = "scc:image_gallery")
+	public HippoBean getImage_gallery() {
+		return getLinkedBean("scc:image_gallery", HippoBean.class);
+	}
+
+	@HippoEssentialsGenerated(internalName = "scc:gallery")
+	public HippoBean getGallery() {
+		return getLinkedBean("scc:gallery", HippoBean.class);
 	}
 }

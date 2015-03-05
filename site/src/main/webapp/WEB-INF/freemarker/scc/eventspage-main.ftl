@@ -43,4 +43,5 @@
     </#if>
     <@hst.html hippohtml=document.content/>
 </article>
+    <@hst.include ref="gallery"/>
 </#if>

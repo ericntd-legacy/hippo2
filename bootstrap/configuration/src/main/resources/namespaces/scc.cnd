@@ -7,6 +7,15 @@
 [scc:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
+[scc:generic] > hippostd:relaxed, hippotranslation:translated, scc:basedocument
+  orderable
+
+[scc:EventI] > hippostd:relaxed, hippotranslation:translated, scc:generic
+  orderable
+
+[scc:compoundtype] > hippo:compound, hippostd:relaxed
+  orderable
+
 [scc:eventsdocument] > hippostd:relaxed, hippotranslation:translated, scc:basedocument
   orderable
 

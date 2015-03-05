@@ -7,7 +7,6 @@ import org.hippoecm.hst.content.beans.standard.HippoDocument;
 import org.hippoecm.hst.content.beans.standard.HippoBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import javax.jcr.NodeIterator;
 import javax.jcr.RepositoryException;
 import javax.jcr.Session;
@@ -16,6 +15,7 @@ import javax.jcr.query.QueryManager;
 import javax.jcr.query.QueryResult;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Calendar;
 
 @HippoEssentialsGenerated(internalName = "scc:eventscc")
 @Node(jcrType = "scc:eventscc")
@@ -37,9 +37,9 @@ public class Eventscc extends EventsDocument {
 		String expression = "/jcr:root/content/gallery/scc/gallery1//element(*, hippo:handle)";
 		try {
 			Session session = getNode().getSession();
-			QueryManager queryManager = session.getWorkspace().getQueryManager();
+			QueryManager queryManager = session.getWorkspace()
+					.getQueryManager();
 			String language = Query.XPATH;
-
 			Query query = queryManager.createQuery(expression, language);
 			QueryResult result = query.execute();
 			NodeIterator nodes = result.getNodes();
@@ -47,8 +47,21 @@ public class Eventscc extends EventsDocument {
 				javax.jcr.Node ratingNode = nodes.nextNode();
 			}
 		} catch (RepositoryException e) {
-			log.error("Failed to retrieve average rating for product document {}", getCanonicalHandleUUID(), e);
+			log
+					.error(
+							"Failed to retrieve average rating for product document {}",
+							getCanonicalHandleUUID(), e);
 		}
 		return images;
+	}
+
+	@HippoEssentialsGenerated(internalName = "scc:date_end")
+	public Calendar getDate_end() {
+		return getProperty("scc:date_end");
+	}
+
+	@HippoEssentialsGenerated(internalName = "scc:image_gallery")
+	public HippoBean getImage_gallery() {
+		return getLinkedBean("scc:image_gallery", HippoBean.class);
 	}
 }

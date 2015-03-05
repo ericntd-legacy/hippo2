@@ -1,5 +1,6 @@
 package com.gec.components;
 
+import com.gec.beans.EventsDocument;
 import com.gec.beans.Sports;
 import org.hippoecm.hst.component.support.bean.BaseHstComponent;
 import org.hippoecm.hst.content.beans.query.HstQuery;
@@ -72,17 +73,25 @@ public class GalleryComponent extends EssentialsListComponent {
         the current event, sports page etc. that has the gallery
          */
         HippoDocumentBean subject = request.getRequestContext().getContentBean(HippoDocumentBean.class);
-        Sports sports = (Sports) subject;
-        HippoFolderBean sportsGallery = (HippoFolderBean) sports.getGallery();
-        // l.info("gallery is "+sportsGallery.getName());
-        // HippoFolderBean sportsGalleryFolder = (HippoFolderBean) sportsGallery;
+
+        HippoFolderBean galleryFolder = null;
+        if (subject instanceof Sports)  {
+            galleryFolder = (HippoFolderBean) ((Sports) subject).getGallery();
+        }
+        if (subject instanceof EventsDocument) {
+            galleryFolder = (HippoFolderBean) ((EventsDocument) subject).getGallery();
+        }
+        // l.info("gallery is "+galleryFolder.getName());
+        // HippoFolderBean sportsGalleryFolder = (HippoFolderBean) galleryFolder;
         // l.info("number of images in the gallery is "+sportsGalleryFolder.getDocuments());
-        List<HippoGalleryImageSet> images = sportsGallery.getDocuments(HippoGalleryImageSet.class);
+        if (galleryFolder==null) return;
+
+        List<HippoGalleryImageSet> images = galleryFolder.getDocuments(HippoGalleryImageSet.class);
         for (HippoGalleryImageSet image: images) {
             l.info("Image is "+image.getFileName());
         }
-        request.setAttribute("result", images);
-        request.setAttribute("document", images.get(0));
+        request.setAttribute("images", images);
+        // request.setAttribute("document", images.get(0));
         // l.info("how do get the gallery included in this current document?");
     }
 }
