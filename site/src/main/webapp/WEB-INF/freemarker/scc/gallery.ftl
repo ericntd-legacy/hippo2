@@ -2,10 +2,10 @@
 <h5>gallery</h5>
 ${document}
 <#if result??>
-<p>${result.count}</p>
+<p>${result.size()}</p>
 </#if>
 <ul id="images">
-<#list result.items as item>
+<#list result as item>
     <@hst.link var="img" hippobean=item/>
     <li>
         <img src="${img}" alt="${item.fileName}" />
