@@ -1,4 +1,4 @@
-    <#include "/WEB-INF/freemarker/include/imports.ftl">
+<#include "/WEB-INF/freemarker/include/imports.ftl">
 <#--
   Copyright 2014 Hippo B.V. (http://www.onehippo.com)
 
@@ -21,3 +21,5 @@
   <p><@fmt.message key="homepage.text"/></p>
 </div>
 <@hst.include ref="container"/>
+<@hst.include ref="latest-events"/>
+<@hst.include ref="promotions"/>

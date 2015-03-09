@@ -20,5 +20,27 @@
         <sv:value>homepage/main</sv:value>
       </sv:property>
     </sv:node>
+    <sv:node sv:name="latest-events">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.gec.components.LatestEventsComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>latest-events</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="promotions">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>com.gec.components.PromotionsComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>promotions</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
 </sv:node>

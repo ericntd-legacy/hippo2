@@ -74,4 +74,52 @@
       <sv:value>freemarker/scc/gallery.ftl</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="newspage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>freemarker/scc/newspage-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="promotionslist">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>freemarker/scc/promotionslist.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="promotionpage-main">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>freemarker/scc/promotionpage-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="latest-events">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>freemarker/scc/components/latest-events.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="promotions">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>freemarker/scc/components/promotions.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="featured-news">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>freemarker/scc/components/featured-news.ftl</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

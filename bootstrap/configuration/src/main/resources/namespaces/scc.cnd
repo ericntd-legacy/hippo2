@@ -25,7 +25,13 @@
 [scc:gallery] > hippo:compound, hippostd:relaxed
   orderable
 
+[scc:newsdocument] > hippostd:relaxed, hippotranslation:translated, scc:basedocument
+  orderable
+
 [scc:photogallery] > hippostd:relaxed, hippotranslation:translated, scc:basedocument
+  orderable
+
+[scc:promotion] > hippostd:relaxed, hippotranslation:translated, scc:basedocument
   orderable
 
 [scc:sports] > hippostd:relaxed, hippotranslation:translated, scc:basedocument

@@ -186,6 +186,9 @@
     <orderEntry type="module" module-name="scc-bootstrap-content" />
     <orderEntry type="library" name="Maven: org.onehippo.addon.frontend.gallerypicker:gallerypicker:1.13.01" level="project" />
     <orderEntry type="library" name="Maven: org.onehippo.forge:resource-bundle-editor-plugin:1.02.05" level="project" />
+    <orderEntry type="library" name="Maven: org.onehippo.forge:dashboard-document-wizard:1.05.01" level="project" />
+    <orderEntry type="library" name="Maven: org.onehippo.forge.selectionplugins:selectionplugins-addon-cms:2.08.03" level="project" />
+    <orderEntry type="library" name="Maven: org.onehippo.forge.selectionplugins:selectionplugins-addon-repository:2.08.03" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.onehippo.cms7:hippo-cms7-commons:1.04.02" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.onehippo.cms7:hippo-services:1.04.02" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.onehippo.cms7:hippo-repository-api:2.26.10" level="project" />

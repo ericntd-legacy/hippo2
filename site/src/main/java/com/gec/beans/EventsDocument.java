@@ -27,9 +27,9 @@ public class EventsDocument extends HippoDocument {
 	 * Get the title of the document.
 	 * @return the title
 	 */
-	@HippoEssentialsGenerated(internalName = "scc:title")
+	@HippoEssentialsGenerated(internalName = TITLE)
 	public String getTitle() {
-		return "testing";
+		return getProperty(TITLE);
 	}
 
 	/** 

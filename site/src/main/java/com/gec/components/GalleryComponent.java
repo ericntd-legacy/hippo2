@@ -81,6 +81,7 @@ public class GalleryComponent extends EssentialsListComponent {
         if (subject instanceof EventsDocument) {
             galleryFolder = (HippoFolderBean) ((EventsDocument) subject).getGallery();
         }
+
         // l.info("gallery is "+galleryFolder.getName());
         // HippoFolderBean sportsGalleryFolder = (HippoFolderBean) galleryFolder;
         // l.info("number of images in the gallery is "+sportsGalleryFolder.getDocuments());

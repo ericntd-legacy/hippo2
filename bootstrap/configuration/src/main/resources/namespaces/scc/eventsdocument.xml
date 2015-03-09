@@ -29,7 +29,7 @@
         <sv:value>hipposysedit:remodel</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>a92008ef-c03f-4e4f-acd2-298c20d10d39</sv:value>
+        <sv:value>7fa55ec5-5211-465b-8448-1d1548b41ad8</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
         <sv:value>true</sv:value>
@@ -258,7 +258,7 @@
         <sv:value>hippostd:taggable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>baa46b1b-d306-4e2e-8cd7-b9073cb5b5e9</sv:value>
+        <sv:value>79bce317-7686-40f5-9c6e-6d8e21e4951b</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String"/>
       <sv:property sv:name="hippostd:holder" sv:type="String">

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.onehippo.forge:dashboard-document-wizard:1.05.01">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/onehippo/forge/dashboard-document-wizard/1.05.01/dashboard-document-wizard-1.05.01.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/onehippo/forge/dashboard-document-wizard/1.05.01/dashboard-document-wizard-1.05.01-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/onehippo/forge/dashboard-document-wizard/1.05.01/dashboard-document-wizard-1.05.01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

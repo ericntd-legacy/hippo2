@@ -21,7 +21,7 @@ import javax.jcr.query.QueryResult;
 @HippoEssentialsGenerated(internalName = "scc:sports")
 @Node(jcrType = "scc:sports")
 public class Sports extends BaseDocument {
-	private static final Logger log = LoggerFactory.getLogger(Eventscc.class);
+	private final Logger log = LoggerFactory.getLogger(this.getClass());
 
 	@HippoEssentialsGenerated(internalName = "scc:name")
 	public String getName() {
